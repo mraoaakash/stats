@@ -1,8 +1,8 @@
 #! /bin/bash
 #PBS -N DATA_HISTOIMGAN
 #PBS -l host=compute3
-#PBS -o model_DATA_HISTOIMGAN_out.log
-#PBS -e model_DATA_HISTOIMGAN_err.log
+#PBS -o /home/rintu.kutum/stats/out.log
+#PBS -e /home/rintu.kutum/stats/err.log
 #PBS -q gpu
 
 module load compiler/anaconda3
