@@ -12,7 +12,7 @@ paths = []
 for folder in folders:
     for root, dirs, files in os.walk(os.path.join(path, folder)):
         for file in files:
-            if file.endswith(".png"):
+            if file.endswith(".tif"):
                 images.append(file)
                 paths.append(os.path.join(root, file))
 
