@@ -126,5 +126,6 @@ for row, i in enumerate(split_list):
     print(dic)
     frame = frame.append(dic, ignore_index=True)
 print(frame)
+frame.to_csv('tnbc_new_split.csv', index=False, header=True)
 
 
