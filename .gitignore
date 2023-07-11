@@ -52,11 +52,11 @@ Mkfile.old
 dkms.conf
 
 
-*xls
-*doc
-*docx
-*pdf
-*jpg
-*png
-*csv    
-*txt
+# *xls
+# *doc
+# *docx
+# *pdf
+# *jpg
+# *png
+# *csv    
+# *txt
