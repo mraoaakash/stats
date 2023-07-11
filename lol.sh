@@ -13,4 +13,4 @@ source ~/.bashrc
 
 conda activate histoimgan
 # python3 /home/rintu.kutum/stats/walker.py
-python3 /home/rintu.kutum/stats/stat_4.py
+python3 /home/rintu.kutum/stats/stat_4.py  
