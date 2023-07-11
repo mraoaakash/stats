@@ -3,6 +3,8 @@ import numpy as np
 import os 
 import re
 import cv2
+import warnings
+warnings.filterwarnings("ignore")
 
 
 df_master = pd.read_csv('tnbc.csv')
